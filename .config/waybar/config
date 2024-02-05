@@ -9,6 +9,7 @@
     "gtk-layer-shell": true,
     "height": 50,
     "margin-bottom": 5,
+    "margin-top": -10,
     "modules-left": ["custom/launch_wofi", "cpu","memory","disk", "custom/cava-internal"],
     "modules-center": ["custom/lock_screen","clock", "custom/power_btn" ],
     "modules-right": ["backlight","battery","pulseaudio", "pulseaudio#microphone", "network","tray","custom/weather"],
