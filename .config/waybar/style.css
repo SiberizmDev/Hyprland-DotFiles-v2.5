@@ -18,7 +18,7 @@ tooltip {
     border-radius: 10px;
     border-width: 2px;
     border-style: solid;
-    border-color: #404552;
+    border-color: #2E3440;
 }
 
 tooltip label{
@@ -42,13 +42,13 @@ tooltip label{
 }
 
 #workspaces button.urgent {
-    color: #404552;
+    color: #2E3440;
     background: #a6e3a1;
     border-radius: 10px;
 }
 
 #workspaces button:hover {
-    background: #404552;
+    background: #2E3440;
     color: #cdd6f4;
 }
 
@@ -77,12 +77,17 @@ tooltip label{
 #temperature,
 #workspaces,
 #backlight {
-    background: #404552;
+    background: #2E3440;
     opacity: 1;
     padding: 0px 10px;
     margin: 3px 0px;
     margin-top: 10px;
     border: 0px;
+}
+
+#clock{
+    border-top: 1px solid #7D8498;
+    border-bottom: 1px solid #7D8498;
 }
 
 #custom-playerctl{
@@ -102,6 +107,12 @@ tooltip label{
 
 }
 
+#custom-lock_screen{
+    border-left: 1px solid #7D8498;
+    border-top: 1px solid #7D8498;
+    border-bottom: 1px solid #7D8498;
+}
+
 #custom-lock_screen, #temperature, #backlight, #custom-launch_wofi, #cpu {
     border-radius: 10px 0px 0px 10px;
 }
@@ -111,6 +122,12 @@ tooltip label{
     border-radius: 10px;
     margin-right: 10px;
 
+}
+
+#custom-power_btn{
+    border-right: 1px solid #7D8498;
+    border-top: 1px solid #7D8498;
+    border-bottom: 1px solid #7D8498;
 }
 
 #custom-terminal, #custom-power_btn, #workspaces, #pulseaudio.microphone, #disk {
